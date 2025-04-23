@@ -1,13 +1,13 @@
-<h1 align="center" > Neovim C++ and Python Configuration </h1>
+<h1 align="center">Neovim C++ and Python Configuration</h1>
 
 <details>
     <summary>Table of Contents</summary>
     <ol>
         <li>
-            <a href="#Screenshot">Screenshots</a>
+            <a href="#screenshot">Screenshots</a>
         </li>
         <li>
-            <a href="#install">Installation</a>
+            <a href="#installation">Installation</a>
         </li>
         <li>
             <a href="#usage">Usage</a>
@@ -19,7 +19,7 @@ This Neovim configuration is crafted by me, primarily authored with careful atte
 
 <br><br>
 
-<h2 id="Screenshot">
+<h2 id="screenshot">
  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25" class="overviews">
   <b> Screenshots
   </b>
@@ -39,8 +39,8 @@ This Neovim configuration is crafted by me, primarily authored with careful atte
 
 <img src="Screenshots/Startup.png" >
 
-<h2 id="install"> Installation</h2>
-To use my config, clone <a href="https://github.com/AnkushRoy-code/neovim-cpp-config.git">my repo</a> to your Neovim config directory. On Linux, it is `~/.config/nvim`.
+<h2 id="installation">Installation</h2>
+To use my config, clone <a href="https://github.com/realvoidgojo/Neovim-Config.git">my repo</a> to your Neovim config directory. On Linux, it is `~/.config/nvim`.
 
 Before proceeding, back up your existing configuration and remove your local Neovim data. You can do this with the following commands:
 
@@ -52,7 +52,7 @@ rm -rf ~/.local/share/nvim
 This code will install the config:
 
 ```bash
-git clone https://github.com/AnkushRoy-code/neovim-cpp-config.git ~/.config/nvim
+git clone https://github.com/realvoidgojo/Neovim-Config.git ~/.config/nvim
 ```
 
 <details>
@@ -71,7 +71,7 @@ nvim
 
 Quit neovim and reopen again after all the plugins are installed by typing '<esc>:qa!' or alternatively you can power off your computer.
 
-Now open neovim and type ':MasonInstallAll'
+Now open neovim and type ':MasonInstall' or 'Lazy Sync'
 
 There it is, now you are ready to code some C++ and blow your leg off. You can change all the things you want, add plugins in the nvim/lua/plugins/your_plugin.lua file after making it.
 
